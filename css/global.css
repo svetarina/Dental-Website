@@ -1,0 +1,241 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*, *::before, *::after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	line-height: 1;
+	scroll-behavior: smooth;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+header, nav, main, aside, footer {
+	display: block;
+}
+
+input, button, textarea, select {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, a {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+:focus, :active {
+	outline: none;
+}
+
+a:focus, a:active {
+	outline: none;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*----------------------------------------*/
+@font-face {
+	font-family: "HelveticaNeue";
+	font-display: swap;
+	src: url("../fonts/HelveticaNeue-300.woff") format("woff"), url("../fonts/HelveticaNeue-300.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	font-display: swap;
+	src: url("../fonts/HelveticaNeue-regular.woff") format("woff"), url("../fonts/HelveticaNeue-regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HelveticaNeue";
+	font-display: swap;
+	src: url("../fonts/HelveticaNeue-700.woff") format("woff"), url("../fonts/HelveticaNeue-700.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Manrope";
+	font-display: swap;
+	src: url("../fonts/manrope-regular.woff") format("woff"), url("../fonts/manrope-regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Manrope";
+	font-display: swap;
+	src: url("../fonts/manrope-600.woff") format("woff"), url("../fonts/manrope-600.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Manrope";
+	font-display: swap;
+	src: url("../fonts/manrope-700.woff") format("woff"), url("../fonts/manrope-700.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Manrope";
+	font-display: swap;
+	src: url("../fonts/manrope-800.woff") format("woff"), url("../fonts/manrope-800.woff2") format("woff2");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-display: swap;
+	src: url("../fonts/roboto-regular.woff") format("woff"), url("../fonts/roboto-regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-display: swap;
+	src: url("../fonts/roboto-500.woff") format("woff"), url("../fonts/roboto-500.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Rubik";
+	font-display: swap;
+	src: url("../fonts/rubik-300.woff") format("woff"), url("../fonts/rubik-300.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Rubik";
+	font-display: swap;
+	src: url("../fonts/rubik-500.woff") format("woff"), url("../fonts/rubik-500.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "icons";
+	font-display: swap;
+	src: url("../fonts/icons.woff") format("woff"), url("../fonts/icons.woff2#icons") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="_icon-"]:before,
+[class*=" _icon-"]:before {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class^="_icon-"]:before,
+[class*=" _icon-"]:before {
+	display: block;
+}
+
+._icon-arrow:before {
+	content: "\e900";
+}
+
+._icon-chat:before {
+	content: "\e901";
+}
+
+._icon-facebook:before {
+	content: "\e902";
+}
+
+._icon-google:before {
+	content: "\e903";
+}
+
+._icon-hour:before {
+	content: "\e904";
+}
+
+._icon-instagram:before {
+	content: "\e905";
+}
+
+._icon-instagram-bg:before {
+	content: "\e906";
+}
+
+._icon-like:before {
+	content: "\e907";
+}
+
+._icon-phone:before {
+	content: "\e908";
+}
+
+._icon-position:before {
+	content: "\e909";
+}
+
+._icon-small-right:before {
+	content: "\e90a";
+}
+
+._icon-twitter:before {
+	content: "\e90b";
+}
+
+._icon-youtube:before {
+	content: "\e90c";
+}
+
+._icon-youtube-bg:before {
+	content: "\e90d";
+}
